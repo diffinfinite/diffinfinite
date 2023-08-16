@@ -9,7 +9,7 @@ We present DiffInfinite, a hierarchical diffusion model that generates arbitrari
 Create a conda environment using the requirements file.
 
 ```
-conda create --name new_environment_name --file requirements.txt
+conda env create -n env_name -f environment.yaml
 ```
 
 Download and unzip the models (```n_classes``` can be 5 or 10):
