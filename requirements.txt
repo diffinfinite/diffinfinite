@@ -4,6 +4,7 @@
 _libgcc_mutex=0.1=main
 _openmp_mutex=5.1=1_gnu
 accelerate=0.18.0=pyhd8ed1ab_0
+altgraph=0.17.3=pypi_0
 anyio=3.5.0=py310h06a4308_0
 argon2-cffi=21.3.0=pyhd3eb1b0_0
 argon2-cffi-bindings=21.2.0=py310h7f8727e_0
@@ -124,8 +125,12 @@ prompt_toolkit=3.0.20=hd3eb1b0_0
 psutil=5.9.0=py310h5eee18b_0
 ptyprocess=0.7.0=pyhd3eb1b0_2
 pure_eval=0.2.2=pyhd3eb1b0_0
+pyarmor=8.3.3=pypi_0
+pyarmor-cli-core=4.3.1=pypi_0
 pycparser=2.21=pyhd3eb1b0_0
 pygments=2.11.2=pyhd3eb1b0_0
+pyinstaller=5.13.0=pypi_0
+pyinstaller-hooks-contrib=2023.6=pypi_0
 pyopenssl=22.0.0=pyhd3eb1b0_0
 pyparsing=3.0.9=pypi_0
 pyqt=5.15.7=py310h6a678d5_1
