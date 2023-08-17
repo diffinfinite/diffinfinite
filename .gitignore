@@ -6,3 +6,4 @@ utils/__pycache__/
 models/
 data/
 results/
+download_script.py
