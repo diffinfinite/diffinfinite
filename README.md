@@ -22,3 +22,12 @@ python download.py --n_classes=5
 ## Usage
 
 Usage example in [Jupyter Notebook](main.ipynb).
+
+
+## Synthetic data visualisation
+
+In ```./results```, we share some synthetic data generated with the model. 
+
+In ```./results/large``` we show 2048x2048 images for different &omega
+
+In ```./results/patches``` we show 512x512 images for different &omega
