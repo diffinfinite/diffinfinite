@@ -10,6 +10,7 @@ Create a conda environment using the requirements file.
 
 ```
 conda env create -n env_name -f environment.yaml
+conda activate env_name
 ```
 
 Download and unzip the models (```n_classes``` can be 5 or 10):
