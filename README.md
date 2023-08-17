@@ -21,8 +21,9 @@ python download.py --n_classes=5
 
 ## Usage
 
-Usage example in [Jupyter Notebook](main.ipynb).
+Usage example in [Jupyter Notebook](main.ipynb). 
 
+To execute the code in Google Colab, download the ```main.ipynb``` file, open it in Colab, set ```colab=True``` in the initial cell, and then run it.
 
 ## Synthetic data visualisation
 
