@@ -28,6 +28,6 @@ Usage example in [Jupyter Notebook](main.ipynb).
 
 In ```./results```, we share some synthetic data generated with the model. 
 
-In ```./results/large``` we show 2048x2048 images for different &omega
+In ```./results/large``` we show 2048x2048 images for different ω.
 
-In ```./results/patches``` we show 512x512 images for different &omega
+In ```./results/patches``` we show 512x512 images for different ω.
