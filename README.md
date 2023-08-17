@@ -4,7 +4,7 @@ We present DiffInfinite, a hierarchical diffusion model that generates arbitrari
 
 ![Example Image](images/examples/synth_examples.png)
 
-Click on the link below to run the jupyter notebook on Google Colab:
+Click on the link below to run the Jupyter Notebook on Google Colab (set ```colab=True``` in the first cell):
 
 <a target="_blank" href="https://colab.research.google.com/github/diffinfinite/diffinfinite/blob/master/main.ipynb">
 
