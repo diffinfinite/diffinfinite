@@ -4,7 +4,16 @@ We present DiffInfinite, a hierarchical diffusion model that generates arbitrari
 
 ![Example Image](images/examples/synth_examples.png)
 
-## Installation
+Click on the link below to run the jupyter notebook on Google Colab:
+
+<a target="_blank" href="https://colab.research.google.com/github/diffinfinite/diffinfinite/blob/master/main.ipynb">
+
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+
+</a>
+
+
+## Run Locally
 
 Create a conda environment using the requirements file.
 
@@ -19,11 +28,8 @@ Download and unzip the models (```n_classes``` can be 5 or 10):
 python download.py --n_classes=5
 ```
 
-## Usage
-
 Usage example in [Jupyter Notebook](main.ipynb). 
 
-To execute the code in Google Colab, download the ```main.ipynb``` file, open it in Colab, set ```colab=True``` in the initial cell, and then run it.
 
 ## Synthetic data visualisation
 
