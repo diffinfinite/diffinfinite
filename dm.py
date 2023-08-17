@@ -430,7 +430,7 @@ class GaussianDiffusion(nn.Module):
     def ddim_onemask(self, x_t, labels, masks, time, time_next, cond_scale):
         
         masks=torch.cat([(mask*labels[i])[None] for i,mask in enumerate(masks)],0).to(x_t.device)
-#         cond_scale = 1.0 if (labels == 0).float().mean()==0 else cond_scale
+        cond_scale = 1.0 if (labels == 0).all().item() else cond_scale
         time_cond = torch.full((x_t.shape[0],), time, device=x_t.device, dtype=torch.long)
         
         pred_noise, x_start, *_ = self.model_predictions(x_t, time_cond, masks, 
@@ -467,7 +467,7 @@ class GaussianDiffusion(nn.Module):
             labels=padded_labels[:,i]
             indices = torch.where(labels != -1)[0]
             sub_images, sub_masks, sub_labels=map(lambda x: x[indices].clone(), (x_t,masks,labels)) 
-            #sub_masks mapped to {0,1} corresponding on label value
+            #exclude other labels from the sub_masks
             sub_masks = (sub_masks == sub_labels[:, None, None, None]).float() 
             
             x_next[indices] += self.ddim_onemask(sub_images, sub_labels, sub_masks, time, 
